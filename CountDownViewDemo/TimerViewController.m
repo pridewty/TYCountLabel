@@ -59,7 +59,7 @@
     self.btn = btn;
     [btn setTitle:@"暂停" forState:UIControlStateNormal];
     [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    btn.backgroundColor = [UIColor colorWithRed:253/255.0 green:68/255.0 blue:64/255.0 alpha:1];
+    btn.backgroundColor = [UIColor purpleColor];
     [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
     
